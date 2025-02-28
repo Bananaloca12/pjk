@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web con Imágenes, Tabla y Referencias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Página Web de Ejemplo</h1>
+        
+        <h2>Imágenes</h2>
+        <img src="https://www.shutterstock.com/image-illustration/david-street-style-graphic-designtextile-600nw-2265632523.jpg" alt="Ejemplo de imagen 1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQADZcFLD1hnWVr9KzDkjXMMoBMfmV0zpx-jdSLQ0brOwWDcCE7lMx3SQMWGLnuScHfX0U&usqp=CAU" alt="Ejemplo de imagen 2">
+
+        <h2>Tabla de Datos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Ciudad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Juan</td>
+                    <td>25</td>
+                    <td>Madrid</td>
+                </tr>
+                <tr>
+                    <td>Ana</td>
+                    <td>30</td>
+                    <td>Barcelona</td>
+                </tr>
+                <tr>
+                    <td>Pedro</td>
+                    <td>35</td>
+                    <td>Valencia</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Referencias</h2>
+        <ul>
+            <li><a href="https://bananaloca12.github.io/BANANALOCA/" target="_blank">Enlace a pagina1</a></li>
+            <li><a href="https://cletoreyes.com/?srsltid=AfmBOopP6r3YTK96pB0QJpXMEk64m9vogRPc72_6a8FGiP3fTiCsw58Q" target="_blank">Enlace a cletoreyes</a></li>
+            <li><a href="https://store.winning-usa.com/index.html" target="_blank">Enlace a winnig usa</a></li>
+        </ul>
+    </div>
+</body>
+</html>
